@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SaleUSA - Взуття та одяг з Америки">
+    <title>SaleUSA - Взуття та одяг з Америки</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" 
+      rel="stylesheet"
+    />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" 
+      rel="stylesheet" 
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-inner-container">
+          <ul class="header-left-menu">
+            <li class="header-burgermenu-item">
+              <a href="#" class="header-icon-link">
+                <svg viewBox="0 0 16 17" class="header-svg svg-burgermenu">
+                  <use href="images/icons.svg#burgermenu"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-phone-item">
+              <a href="#" class="header-icon-link">
+                <svg viewBox="0 0 16 17" class="header-svg svg-phone">
+                  <use href="images/icons.svg#phone"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <div class="header-logo">
+            <a href="" class="header-logo-link"><span class="hidden">SaleUSA</span>
+              <img src="./images/logo.svg" class="main-logo-svg" width="113" alt="SaleUSA Logo" />
+            </a>
+          </div>
+          <form class="header-search-container">
+            <input
+              type="text"
+              class="header-search-input"
+              placeholder="Пошук"
+            />
+            <button type="submit" class="header-search-button">Знайти</button>
+            <button type="button" class="header-search-clear-button">
+              <svg viewBox="0 0 12 12" class="input-svg-cross">
+                <use href="images/icons.svg#inputcross"></use>
+              </svg>
+            </button>
+            <svg viewBox="0 0 12 12" class="input-svg-search">
+              <use href="images/icons.svg#inputsearch"></use>
+            </svg>
+          </form>
+          <ul class="header-right-menu">
+            <li class="header-heart-item">
+              <a href="#" class="header-icon-link">
+                <svg viewBox="0 0 27 25" class="header-svg svg-heart">
+                  <use href="images/icons.svg#heart"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-phone-item-right">
+              <a href="#" class="header-icon-link">
+                <svg viewBox="0 0 16 17" class="header-svg svg-phone">
+                  <use href="images/icons.svg#phone"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-search-item">
+              <a href="#" class="header-icon-link">
+                <svg viewBox="0 0 16 16" class="header-svg svg-search">
+                  <use href="images/icons.svg#search"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="header-icon-link">
+                <svg viewBox="0 0 16 16" class="header-svg svg-account">
+                  <use href="images/icons.svg#account"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-basket-item">
+              <a href="#" class="header-icon-link">
+                <svg viewBox="0 0 30 25" class="header-svg svg-basket">
+                  <use href="images/icons.svg#basket"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <h3><span class="hidden">SaleUSA</span>
+        </h3>
+        <div class="container">
+          <div class="hero-top-menu">
+            <ul class="hero-top-list">
+              <li>
+                <a href="#">
+                  <span>Для жінок</span>
+                  <svg viewBox="0 0 11 6" class="hero-svg svg-triangle">
+                    <use href="images/icons.svg#triangle"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Для чоловіків</span>
+                  <svg viewBox="0 0 11 6" class="hero-svg svg-triangle">
+                    <use href="images/icons.svg#triangle"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Бренди</span>
+                  <svg viewBox="0 0 11 6" class="hero-svg svg-triangle">
+                    <use href="images/icons.svg#triangle"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">Відгуки</a>
+              </li>
+            </ul>
+          </div>
+          <a href="#" class="hero__link">
+            <picture class="hero__photo">
+              <source
+                srcset="./images/tablet/big_sell-708x317.jpeg"
+                media="(min-width: 768px) and (max-width: 999px)"
+              />
+              <source
+                srcset="./images/desktop/big_sell-940x424.jpeg"
+                media="(min-width: 1000px) and (max-width: 1919px)"
+              />
+              <source
+                srcset="./images/wdesktop/big_sell-1140x518.jpeg"
+                media="(min-width: 1920px)"
+              />
+              <img
+                src="./images/mobile/big_sell-335x150.jpeg"
+                class="hero__photo-img"
+                alt="Великий розпродаж"
+              />
+            </picture>
+          </a>
+        </div>
+      </section>
+      <section class="popular-categories">
+        <div class="container">
+          <h3 class="popular-categories__title">Популярні категорії</h3>
+          <ul class="popular-categories__slider">
+            <li class="popular-categories__slider-item">
+              <a href="#">
+                <div class="popular-categories-img-wrapper"></div>
+                <h4 class="popular-categories-item-title">Кросівки</h4>
+              </a>
+            </li>
+            <li class="popular-categories__slider-item">
+              <a href="#">
+                <div class="popular-categories-img-wrapper"></div>
+                <h4 class="popular-categories-item-title">Мокасини</h4>
+              </a>
+            </li>
+            <li class="popular-categories__slider-item">
+              <a href="#">
+                <div class="popular-categories-img-wrapper"></div>
+                <h4 class="popular-categories-item-title">Туфлі</h4>
+              </a>
+            </li>
+            <li class="popular-categories__slider-item">
+              <a href="#">
+                <div class="popular-categories-img-wrapper"></div>
+                <h4 class="popular-categories-item-title">Черевики</h4>
+              </a>
+            </li>
+            <li class="popular-categories__slider-item">
+              <a href="#">
+                <div class="popular-categories-img-wrapper"></div>
+                <h4 class="popular-categories-item-title">Рюкзаки</h4>
+              </a>
+            </li>
+            <li class="popular-categories__slider-item">
+              <a href="#">
+                <div class="popular-categories-img-wrapper"></div>
+                <h4 class="popular-categories-item-title">В'єтнамки</h4>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="popular-items">
+        <div class="container">
+          <ul class="popular-items-list">
+            <li class="popular-items-list-item">
+              <a href="">
+                <div class="pop-item-container">
+                  <div class="pop-item-info">
+                    <h4 class="pop-item-title">Кроссовки UGG</h4>
+                    <p class="pop-item-price">от <span class="pop-item-price__value">1500</span> грн.</p>
+                  </div>
+                  <div class="pop-item-img-wrapper">
+                    <img src="./images/ugg.png" alt="UGG" width="162">
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="popular-items-list-item">
+              <a href="">
+                <div class="pop-item-container">
+                  <div class="pop-item-info">
+                    <h4 class="pop-item-title">Кроссовки DC</h4>
+                    <p class="pop-item-price">от <span class="pop-item-price__value">2000</span> грн.</p>
+                  </div>
+                  <div class="pop-item-img-wrapper">
+                    <img src="./images/dc.png" alt="DC" width="162">
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="popular-items-list-item">
+              <a href="">
+                <div class="pop-item-container">
+                  <div class="pop-item-info">
+                    <h4 class="pop-item-title">Кроссовки SAUCONY</h4>
+                    <p class="pop-item-price">от <span class="pop-item-price__value">3500</span> грн.</p>
+                  </div>
+                  <div class="pop-item-img-wrapper">
+                    <img src="./images/saucony.png" alt="Saucony" width="162">
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="shoes">
+        <div class="container">
+          <h3 class="shoes__title">Взуття</h3>
+          <ul class="shoes-list-slider">
+            <li class="shoes-list-item">
+              <a href="">
+                <div class="shoes-item-container">
+                </div>
+                <h4 class="shoes-item__title">UGG CLASSIC CLEAR MINI</h4>
+                <div class="shoes-item__old-price">1 899 $</div>
+                <div class="shoes-item__price">1 599 $</div>
+                <div class="shoes-item__code">Code: 266070</div>
+                <span class="shoes-item-badge">-23 %</span>
+              </a>
+              <div class="shoes-item__like">
+                <button type="button" class="shoes-item__like-btn">
+                  <svg viewBox="0 0 27 25" class="shoes-item-svg-heart">
+                    <use href="images/icons.svg#heart"></use>
+                  </svg>
+                </button>
+              </div>
+            </li>
+            <li class="shoes-list-item">
+              <a href="">
+                <div class="shoes-item-container">
+                </div>
+                <h4 class="shoes-item__title">UGG CLASSIC CLEAR MINI</h4>
+                <div class="shoes-item__old-price">1 899 $</div>
+                <div class="shoes-item__price">1 599 $</div>
+                <div class="shoes-item__code">Code: 266070</div>
+                <div class="shoes-item-badge">Топ продажів</div>
+              </a>
+              <div class="shoes-item__like">
+                <button type="button" class="shoes-item__like-btn">
+                  <svg viewBox="0 0 27 25" class="shoes-item-svg-heart">
+                    <use href="images/icons.svg#heart"></use>
+                  </svg>
+                </button>
+              </div>
+            </li>
+            <li class="shoes-list-item">
+              <a href="">
+                <div class="shoes-item-container">
+                </div>
+                <h4 class="shoes-item__title">UGG CLASSIC CLEAR MINI</h4>
+                <div class="shoes-item__old-price">1 899 $</div>
+                <div class="shoes-item__price">1 599 $</div>
+                <div class="shoes-item__code">Code: 266070</div>
+              </a>
+              <div class="shoes-item__like">
+                <button type="button" class="shoes-item__like-btn">
+                  <svg viewBox="0 0 27 25" class="shoes-item-svg-heart">
+                    <use href="images/icons.svg#heart"></use>
+                  </svg>
+                </button>
+              </div>
+            </li>
+            <li class="shoes-list-item">
+              <a href="">
+                <div class="shoes-item-container">
+                </div>
+                <h4 class="shoes-item__title">UGG CLASSIC CLEAR MINI</h4>
+                <div class="shoes-item__old-price">1 899 $</div>
+                <div class="shoes-item__price">1 599 $</div>
+                <div class="shoes-item__code">Code: 266070</div>
+              </a>
+              <div class="shoes-item__like">
+                <button type="button" class="shoes-item__like-btn">
+                  <svg viewBox="0 0 27 25" class="shoes-item-svg-heart">
+                    <use href="images/icons.svg#heart"></use>
+                  </svg>
+                </button>
+              </div>
+            </li>
+            <li class="shoes-list-item">
+              <a href="">
+                <div class="shoes-item-container">
+                </div>
+                <h4 class="shoes-item__title">UGG CLASSIC CLEAR MINI</h4>
+                <div class="shoes-item__old-price">1 899 $</div>
+                <div class="shoes-item__price">1 599 $</div>
+                <div class="shoes-item__code">Code: 266070</div>
+              </a>
+              <div class="shoes-item__like">
+                <button type="button" class="shoes-item__like-btn">
+                  <svg viewBox="0 0 27 25" class="shoes-item-svg-heart">
+                    <use href="images/icons.svg#heart"></use>
+                  </svg>
+                </button>
+              </div>
+            </li>
+            <li class="shoes-list-item">
+              <a href="">
+                <div class="shoes-item-container">
+                </div>
+                <h4 class="shoes-item__title">UGG CLASSIC CLEAR MINI</h4>
+                <div class="shoes-item__old-price">1 899 $</div>
+                <div class="shoes-item__price">1 599 $</div>
+                <div class="shoes-item__code">Code: 266070</div>
+              </a>
+              <div class="shoes-item__like">
+                <button type="button" class="shoes-item__like-btn">
+                  <svg viewBox="0 0 27 25" class="shoes-item-svg-heart">
+                    <use href="images/icons.svg#heart"></use>
+                  </svg>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="shoes-brand">
+        <div class="container">
+          <div class="shoes-brand-container">
+            <div class="shoes-brand-info">
+              <h4 class="shoes-brand-info__title">UGG</h4>
+              <p class="shoes-brand-info__text">Ваш текст про бренд Ваш текст про бренд Ваш текст про бренд Ваш текст про бренд Ваш текст про бренд</p>
+              <div class="shoes-brand-btn-container">
+                <a href="" class="shoes-brand-info__btn"><span>Show more</span></a>
+              </div>
+            </div>
+            <div class="shoes-brand-img-wrapper">
+              <a href="#" class="shoes-brand__link">
+                <picture class="shoes-brand__photo">
+                  <source
+                    srcset="./images/tablet/shoes-brand.jpeg"
+                    media="(min-width: 768px) and (max-width: 999px)"
+                  />
+                  <source
+                    srcset="./images/desktop/shoes-brand.jpeg"
+                    media="(min-width: 1000px) and (max-width: 1919px)"
+                  />
+                  <source
+                    srcset="./images/wdesktop/shoes-brand.jpeg"
+                    media="(min-width: 1920px)"
+                  />
+                  <img
+                    src="./images/mobile/shoes-brand.jpeg"
+                    class="shoes-brand__photo-img"
+                    alt="UGG Brand"
+                  />
+                </picture>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bags">
+        <div class="container">
+          <h3 class="bags__title">Сумки</h3>
+          <ul class="bags-list-slider">
+            <li class="bags-list-item">
+              <a href="">
+                <div class="bags-item-container">
+                </div>
+                <h4 class="bags-item__title">UGG CLASSIC CLEAR MINI</h4>
+                <div class="bags-item__old-price">1 899 $</div>
+                <div class="bags-item__price">1 599 $</div>
+                <div class="bags-item__code">Code: 266070</div>
+                <span class="bags-item-badge">-23 %</span>
+              </a>
+              <div class="bags-item__like">
+                <button type="button" class="bags-item__like-btn">
+                  <svg viewBox="0 0 27 25" class="bags-item-svg-heart">
+                    <use href="images/icons.svg#heart"></use>
+                  </svg>
+                </button>
+              </div>
+            </li>
+            <li class="bags-list-item">
+              <a href="">
+                <div class="bags-item-container">
+                </div>
+                <h4 class="bags-item__title">UGG CLASSIC CLEAR MINI</h4>
+                <div class="bags-item__old-price">1 899 $</div>
+                <div class="bags-item__price">1 599 $</div>
+                <div class="bags-item__code">Code: 266070</div>
+                <span class="bags-item-badge">Топ продажів</span>
+              </a>
+              <div class="bags-item__like">
+                <button type="button" class="bags-item__like-btn">
+                  <svg viewBox="0 0 27 25" class="bags-item-svg-heart">
+                    <use href="images/icons.svg#heart"></use>
+                  </svg>
+                </button>
+              </div>
+            </li>
+            <li class="bags-list-item">
+              <a href="">
+                <div class="bags-item-container">
+                </div>
+                <h4 class="bags-item__title">UGG CLASSIC CLEAR MINI</h4>
+                <div class="bags-item__old-price">1 899 $</div>
+                <div class="bags-item__price">1 599 $</div>
+                <div class="bags-item__code">Code: 266070</div>
+              </a>
+              <div class="bags-item__like">
+                <button type="button" class="bags-item__like-btn">
+                  <svg viewBox="0 0 27 25" class="bags-item-svg-heart">
+                    <use href="images/icons.svg#heart"></use>
+                  </svg>
+                </button>
+              </div>
+            </li>
+            <li class="bags-list-item">
+              <a href="">
+                <div class="bags-item-container">
+                </div>
+                <h4 class="bags-item__title">UGG CLASSIC CLEAR MINI</h4>
+                <div class="bags-item__old-price">1 899 $</div>
+                <div class="bags-item__price">1 599 $</div>
+                <div class="bags-item__code">Code: 266070</div>
+              </a>
+              <div class="bags-item__like">
+                <button type="button" class="bags-item__like-btn">
+                  <svg viewBox="0 0 27 25" class="bags-item-svg-heart">
+                    <use href="images/icons.svg#heart"></use>
+                  </svg>
+                </button>
+              </div>
+            </li>
+            <li class="bags-list-item">
+              <a href="">
+                <div class="bags-item-container">
+                </div>
+                <h4 class="bags-item__title">UGG CLASSIC CLEAR MINI</h4>
+                <div class="bags-item__old-price">1 899 $</div>
+                <div class="bags-item__price">1 599 $</div>
+                <div class="bags-item__code">Code: 266070</div>
+              </a>
+              <div class="bags-item__like">
+                <button type="button" class="bags-item__like-btn">
+                  <svg viewBox="0 0 27 25" class="bags-item-svg-heart">
+                    <use href="images/icons.svg#heart"></use>
+                  </svg>
+                </button>
+              </div>
+            </li>
+            <li class="bags-list-item">
+              <a href="">
+                <div class="bags-item-container">
+                </div>
+                <h4 class="bags-item__title">UGG CLASSIC CLEAR MINI</h4>
+                <div class="bags-item__old-price">1 899 $</div>
+                <div class="bags-item__price">1 599 $</div>
+                <div class="bags-item__code">Code: 266070</div>
+              </a>
+              <div class="bags-item__like">
+                <button type="button" class="bags-item__like-btn">
+                  <svg viewBox="0 0 27 25" class="bags-item-svg-heart">
+                    <use href="images/icons.svg#heart"></use>
+                  </svg>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="bags-brand">
+        <div class="container">
+          <div class="bags-brand-container">
+            <div class="bags-brand-info">
+              <h4 class="bags-brand-info__title">DC</h4>
+              <p class="bags-brand-info__text">Ваш текст про бренд Ваш текст про бренд Ваш текст про бренд Ваш текст про бренд Ваш текст про бренд</p>
+              <div class="bags-brand-btn-container">
+                <a href="" class="bags-brand-info__btn"><span>Show more</span></a>
+              </div>
+            </div>
+            <div class="bags-brand-img-wrapper">
+              <a href="#" class="bags-brand__link">
+                <picture class="bags-brand__photo">
+                  <source
+                    srcset="./images/tablet/bags-brand.jpeg"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="./images/desktop/bags-brand.jpeg"
+                    media="(min-width: 1000px) and (max-width: 1919px)"
+                  />
+                  <source
+                    srcset="./images/wdesktop/bags-brand.jpeg"
+                    media="(min-width: 1920px)"
+                  />
+                  <img
+                    src="./images/mobile/bags-brand.jpeg"
+                    class="bags-brand__photo-img"
+                    alt="DC Brand"
+                  />
+                </picture>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="brands">
+        <div class="container">
+          <h3 class="brands__title">Трендові бренди</h3>
+          <ul class="brands-list-slider">
+            <li class="brands-list-item">
+              <a href="">
+                <div class="brands-item-container">
+                  <img class="" src="./images/brands/brand1.png" alt="Brand1">
+                </div>
+                <h4 class="brands-item__title">Nike</h4>
+              </a>
+            </li>
+            <li class="brands-list-item">
+              <a href="">
+                <div class="brands-item-container">
+                  <img class="" src="./images/brands/brand2.png" alt="Brand2">
+                </div>
+                <h4 class="brands-item__title">Asics</h4>
+              </a>
+            </li>
+            <li class="brands-list-item">
+              <a href="">
+                <div class="brands-item-container">
+                  <img class="" src="./images/brands/brand3.png" alt="Brand3">
+                </div>
+                <h4 class="brands-item__title">Adidas</h4>
+              </a>
+            </li>
+            <li class="brands-list-item">
+              <a href="">
+                <div class="brands-item-container">
+                  <img class="" src="./images/brands/brand4.png" alt="Brand4">
+                </div>
+                <h4 class="brands-item__title">Fila</h4>
+              </a>
+            </li>
+            <li class="brands-list-item">
+              <a href="">
+                <div class="brands-item-container">
+                  <img class="" src="./images/brands/brand5.png" alt="Brand5">
+                </div>
+                <h4 class="brands-item__title">New Balance</h4>
+              </a>
+            </li>
+            <li class="brands-list-item">
+              <a href="">
+                <div class="brands-item-container">
+                  <img class="" src="./images/brands/brand6.png" alt="Brand6">
+                </div>
+                <h4 class="brands-item__title">Clarks</h4>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="trend-brand">
+        <div class="container">
+          <div class="trend-brand-container">
+            <div class="trend-brand-info">
+              <h4 class="trend-brand-info__title">SAUCONY</h4>
+              <p class="trend-brand-info__text">Ваш текст про бренд Ваш текст про бренд Ваш текст про бренд Ваш текст про бренд Ваш текст про бренд</p>
+              <div class="trend-brand-btn-container">
+                <a href="" class="trend-brand-info__btn"><span>Show more</span></a>
+              </div>
+            </div>
+            <div class="trend-brand-img-wrapper">
+              <a href="#" class="trend-brand__link">
+                <picture class="trend-brand__photo">
+                  <source
+                    srcset="./images/tablet/trend-brand.jpeg"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="./images/desktop/trend-brand.jpeg"
+                    media="(min-width: 1000px) and (max-width: 1919px)"
+                  />
+                  <source
+                    srcset="./images/wdesktop/trend-brand.jpeg"
+                    media="(min-width: 1920px)"
+                  />
+                  <img
+                    src="./images/mobile/trend-brand.jpeg"
+                    class="trend-brand__photo-img"
+                    alt="Trend Brand"
+                  />
+                </picture>
+              </a>
+            </div>
+          </div>
+        </div> 
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-part">
+          <div class="footer-logo">
+            <a href="" class="footer-logo-link">
+              <span class="hidden">SaleUSA</span>
+              <img src="./images/logo.svg" class="footer-logo-svg" width="113" alt="SaleUSA Logo" />
+            </a>
+            <p class="footer-logo-text">Взуття та одяг з Америки</p>
+          </div>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <h3>Клієнтам</h3>
+              <ul class="footer-list__client-list">
+                <li class="footer-list__secondary-item">
+                  <a href="#">Для жінок</a>
+                </li>
+                <li class="footer-list__secondary-item">
+                  <a href="#">Для чоловіків</a>
+                </li>
+                <li class="footer-list__secondary-item">
+                  <a href="#">Взуття</a>
+                </li>
+                <li class="footer-list__secondary-item">
+                  <a href="#">Відгуки</a>
+                </li>
+              </ul>
+            </li>
+            <li class="footer-list-item">
+              <h3>Контакти</h3>
+              <address class="footer-list__address">
+                <ul class="footer-list__address-list">
+                  <li class="footer-list__secondary-item">
+                    <a href="tel:+380635603030">+38 (063) 560-30-30</a>
+                  </li>
+                  <li class="footer-list__secondary-item">
+                    <a href="mailto:cs@saleusa.com.ua">cs@saleusa.com.ua</a>
+                  </li>
+                </ul>
+              </address>
+            </li>
+            <li class="footer-list-item">
+              <h3>SALEUSA</h3>
+              <ul class="footer-list__lawnotes-list">
+                <li class="footer-list__secondary-item">
+                  <a href="#">Політика конфіденційності</a>
+                </li>
+                <li class="footer-list__secondary-item">
+                  <a href="#">Умови повернення</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <ul class="footer-socials">
+          <li class="footer-socials-item">
+            <a href="#" class="footer-icon-link">
+              <svg viewBox="0 0 39 38" class="footer-svg svg-instagram">
+                <use href="images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-socials-item">
+            <a href="#" class="footer-icon-link">
+              <svg viewBox="0 0 39 38" class="footer-svg svg-facebook">
+                <use href="images/icons.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-socials-item">
+            <a href="#" class="footer-icon-link">
+              <svg viewBox="0 0 50 33" class="footer-svg svg-youtube">
+                <use href="images/icons.svg#youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <script>
+    document
+      .querySelector(".header-search-clear-button")
+      .addEventListener("click", (ev) => {
+        document.querySelector(".header-search-input").value = "";
+      });
+  </script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/lightslider.min.js"></script>
+  <script>
+    $(".popular-categories__slider").lightSlider({
+      controls: false,
+      item: 6,
+      loop: true,
+      responsive: [
+        {
+          breakpoint: 1919,
+          settings: {
+            item: 3,
+          },
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            item: 2,
+          },
+        },
+      ],
+    });
+    $(".shoes-list-slider").lightSlider({
+      controls: false,
+      item: 6,
+      loop: true,
+      responsive: [
+      {
+          breakpoint: 1919,
+          settings: {
+            item: 4
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            item: 3
+          }
+        },
+      ]
+    });
+    $(".bags-list-slider").lightSlider({
+      controls: false,
+      item: 6,
+      loop: true,
+      responsive: [
+      {
+          breakpoint: 1919,
+          settings: {
+            item: 4
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            item: 3
+          }
+        },
+      ]
+    });
+    $(".brands-list-slider").lightSlider({
+      controls: false,
+      item: 6,
+      loop: true,
+      responsive: [
+        {
+          breakpoint: 1919,
+          settings: {
+            item: 5
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            item: 3
+          }
+        }
+      ]
+    });
+  </script>
+</html>

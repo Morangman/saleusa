@@ -1,0 +1,44 @@
+body {
+  background-color: $backgoundColor;
+  color: $mainColor;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: $mobile;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: hidden;
+  @media (min-width: $tablet) {
+    width: $tablet;
+    max-width: $tablet;
+  }
+  @media (min-width: $desktop) {
+    width: $desktop;
+    max-width: $desktop;
+  }
+  @media (min-width: $wdesktop) {
+    width: $wdesktop;
+    max-width: $wdesktop;
+    padding-left: 390px;
+    padding-right: 390px;
+  }
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
