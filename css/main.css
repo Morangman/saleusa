@@ -1053,7 +1053,7 @@ svg.svg-basket {
       -ms-flex-align: center;
           align-items: center;
   background-color: #F6F6F6;
-  background-image: url("../../images/mobile/blue-triangle.png"), url("../../images/mobile/yellow-triangle.png");
+  background-image: url("../images/mobile/blue-triangle.png"), url("../images/mobile/yellow-triangle.png");
   background-repeat: no-repeat;
   background-position: right 0 top 0, right 0 bottom 0;
 }
@@ -1079,55 +1079,55 @@ svg.svg-basket {
 
 @media (min-width: 768px) {
   .popular-items-list-item:nth-child(1) .pop-item-container {
-    background-image: url("../../images/tablet/blue-triangle.png"), url("../../images/tablet/yellow-triangle.png");
+    background-image: url("../images/tablet/blue-triangle.png"), url("../images/tablet/yellow-triangle.png");
     background-repeat: no-repeat;
     background-position: right 0 top 0, right 0 bottom 0;
   }
 }
 @media (min-width: 1000px) {
   .popular-items-list-item:nth-child(1) .pop-item-container {
-    background-image: url("../../images/desktop/blue-triangle.png"), url("../../images/desktop/yellow-triangle.png");
+    background-image: url("../images/desktop/blue-triangle.png"), url("../images/desktop/yellow-triangle.png");
   }
 }
 @media (min-width: 1920px) {
   .popular-items-list-item:nth-child(1) .pop-item-container {
-    background-image: url("../../images/wdesktop/blue-triangle.png"), url("../../images/wdesktop/yellow-triangle.png");
+    background-image: url("../images/wdesktop/blue-triangle.png"), url("../images/wdesktop/yellow-triangle.png");
   }
 }
 
 @media (min-width: 768px) {
   .popular-items-list-item:nth-child(2) .pop-item-container {
-    background-image: url("../../images/tablet/yellow-triangle-2.png");
+    background-image: url("../images/tablet/yellow-triangle-2.png");
     background-repeat: no-repeat;
     background-position: right 0;
   }
 }
 @media (min-width: 1000px) {
   .popular-items-list-item:nth-child(2) .pop-item-container {
-    background-image: url("../../images/desktop/yellow-triangle-2.png");
+    background-image: url("../images/desktop/yellow-triangle-2.png");
   }
 }
 @media (min-width: 1920px) {
   .popular-items-list-item:nth-child(2) .pop-item-container {
-    background-image: url("../../images/wdesktop/yellow-triangle-2.png");
+    background-image: url("../images/wdesktop/yellow-triangle-2.png");
   }
 }
 
 @media (min-width: 768px) {
   .popular-items-list-item:nth-child(3) .pop-item-container {
-    background-image: url("../../images/tablet/blue-triangle-3.png"), url("../../images/tablet/yellow-triangle-3.png");
+    background-image: url("../images/tablet/blue-triangle-3.png"), url("../images/tablet/yellow-triangle-3.png");
     background-repeat: no-repeat;
     background-position: right 0 bottom 0, right 0 top 0;
   }
 }
 @media (min-width: 1000px) {
   .popular-items-list-item:nth-child(3) .pop-item-container {
-    background-image: url("../../images/desktop/blue-triangle-3.png"), url("../../images/desktop/yellow-triangle-3.png");
+    background-image: url("../images/desktop/blue-triangle-3.png"), url("../images/desktop/yellow-triangle-3.png");
   }
 }
 @media (min-width: 1920px) {
   .popular-items-list-item:nth-child(3) .pop-item-container {
-    background-image: url("../../images/wdesktop/blue-triangle-3.png"), url("../../images/wdesktop/yellow-triangle-3.png");
+    background-image: url("../images/wdesktop/blue-triangle-3.png"), url("../images/wdesktop/yellow-triangle-3.png");
   }
 }
 
