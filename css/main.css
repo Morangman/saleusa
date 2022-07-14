@@ -652,8 +652,13 @@ svg.svg-basket {
 .footer {
   margin-top: 50px;
   padding-top: 30px;
-  padding-bottom: 64px;
+  padding-bottom: 75px;
   background: linear-gradient(270.84deg, #1f3454 0%, #294060 49.03%, #3e5474 100%);
+}
+@media (min-width: 768px) {
+  .footer {
+    padding-bottom: 100px;
+  }
 }
 
 .footer-container {
@@ -2446,5 +2451,134 @@ svg.svg-basket {
   .trend-brand-info__btn {
     width: 449px;
     font-size: 20px;
+  }
+}
+
+.bottom-menu {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 69px;
+  background-color: #FFFFFF;
+}
+@media (min-width: 768px) {
+  .bottom-menu {
+    height: 95px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 1920px) {
+  .bottom-menu {
+    display: none;
+  }
+}
+
+.bottom-menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 375px;
+  margin: 0 auto;
+  height: 100%;
+}
+@media (min-width: 768px) {
+  .bottom-menu-list {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1000px) {
+  .bottom-menu-list {
+    max-width: 1000px;
+  }
+}
+
+.bottom-menu-item {
+  text-align: center;
+  position: relative;
+  height: 44px;
+}
+@media (min-width: 768px) {
+  .bottom-menu-item {
+    height: 55px;
+  }
+}
+
+.bottom-menu-svg-home {
+  width: 23px;
+  fill: transparent;
+  stroke: #A1A1A1;
+}
+@media (min-width: 768px) {
+  .bottom-menu-svg-home {
+    width: 29px;
+  }
+}
+
+.bottom-menu-svg-catalogue, .bottom-menu-svg-liked {
+  width: 24px;
+  fill: transparent;
+  stroke: #A1A1A1;
+}
+@media (min-width: 768px) {
+  .bottom-menu-svg-catalogue, .bottom-menu-svg-liked {
+    width: 30px;
+  }
+}
+
+.bottom-menu-svg-account {
+  width: 20px;
+  fill: transparent;
+  stroke: #A1A1A1;
+}
+@media (min-width: 768px) {
+  .bottom-menu-svg-account {
+    width: 30px;
+  }
+}
+
+.bottom-menu-basket {
+  width: 28px;
+  fill: #A1A1A1;
+  stroke: transparent;
+}
+@media (min-width: 768px) {
+  .bottom-menu-basket {
+    width: 36px;
+  }
+}
+
+.bottom-menu-title {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 1.4;
+  text-align: center;
+  color: #A1A1A1;
+}
+@media (min-width: 768px) {
+  .bottom-menu-title {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1000px) {
+  .bottom-menu-title {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=main.css.map */

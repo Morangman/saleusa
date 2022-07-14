@@ -1,13 +1,16 @@
 .footer {
   margin-top: 50px;
   padding-top: 30px;
-  padding-bottom: 64px;
+  padding-bottom: 75px;
   background: linear-gradient(
     270.84deg,
     #1f3454 0%,
     #294060 49.03%,
     #3e5474 100%
   );
+  @media (min-width: $tablet){
+    padding-bottom: 100px;
+  }
 }
 
 .footer-container {
