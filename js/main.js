@@ -80,3 +80,9 @@ document
 .addEventListener("click", (ev) => {
   document.querySelector(".header-search-input").value = "";
 });
+
+document.getElementById("toggle_contacts")
+.addEventListener("click", (ev) =>{
+  ev.preventDefault();
+  document.querySelector(".contacts-dropdown").classList.toggle("shown");
+});

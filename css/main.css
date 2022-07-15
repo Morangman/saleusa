@@ -1,11 +1,11 @@
-body {
-  background-color: #FFFFFF;
-  color: #0A0A0A;
-}
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #0A0A0A;
 }
 
 .container {
@@ -13,7 +13,7 @@ body {
   max-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
-  overflow: hidden;
+  position: relative;
 }
 @media (min-width: 768px) {
   .container {
@@ -30,7 +30,7 @@ body {
 @media (min-width: 1920px) {
   .container {
     width: 1920px;
-    max-width: 1920px;
+    max-width: 100%;
     padding-left: 390px;
     padding-right: 390px;
   }
@@ -1708,7 +1708,7 @@ svg.svg-basket {
     width: 365px;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1920px) {
   .shoes-brand-info__btn {
     width: 449px;
     font-size: 20px;
@@ -2239,6 +2239,10 @@ svg.svg-basket {
   }
 }
 
+.brands-item-container img {
+  width: 50%;
+}
+
 .brands-item__title {
   margin-top: 10px;
   margin-bottom: 5px;
@@ -2514,8 +2518,6 @@ svg.svg-basket {
 
 .bottom-menu-svg-home {
   width: 23px;
-  fill: transparent;
-  stroke: #A1A1A1;
 }
 @media (min-width: 768px) {
   .bottom-menu-svg-home {
@@ -2581,4 +2583,95 @@ svg.svg-basket {
   .bottom-menu-title {
     font-size: 14px;
   }
+}
+
+.contacts-dropdown {
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 183px;
+  height: 158px;
+  left: 50px;
+  top: 69px;
+  background-color: #FFFFFF;
+  z-index: 1;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+@media (min-width: 768px) {
+  .contacts-dropdown {
+    display: none;
+  }
+}
+
+.contacts-dropdown.shown {
+  visibility: visible;
+  opacity: 1;
+}
+
+.contacts-dropdown-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.contacts-dropdown-item > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts-dropdown-phone {
+  width: 16px;
+}
+
+.contacts-dropdown-mail {
+  width: 17px;
+}
+
+.contacts-dropdown-viber {
+  width: 17px;
+}
+
+.contacts-dropdown-telegram {
+  width: 17px;
+}
+
+.contacts-dropdown-item > a {
+  color: #0A0A0A;
+}
+
+.contacts-dropdown-item > a > span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.7;
+  margin-left: 8px;
+}
+
+.contacts-dropdown-item > a.contacts-dropdown-viber-link {
+  color: #9B51E0;
+}
+
+.contacts-dropdown-item > a.contacts-dropdown-viber-link svg {
+  fill: #9B51E0;
+}
+
+.contacts-dropdown-item > a.contacts-dropdown-telegram-link {
+  color: #0088CC;
+}
+
+.contacts-dropdown-item > a.contacts-dropdown-telegram-link svg {
+  fill: #0088CC;
 }/*# sourceMappingURL=main.css.map */

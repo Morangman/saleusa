@@ -1,10 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: $backgoundColor;
   color: $mainColor;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .container {
@@ -12,7 +12,7 @@ body {
   max-width: $mobile;
   padding-left: 20px;
   padding-right: 20px;
-  overflow: hidden;
+  position: relative;
   @media (min-width: $tablet) {
     width: $tablet;
     max-width: $tablet;
@@ -23,7 +23,7 @@ body {
   }
   @media (min-width: $wdesktop) {
     width: $wdesktop;
-    max-width: $wdesktop;
+    max-width: 100%;
     padding-left: 390px;
     padding-right: 390px;
   }
