@@ -4,7 +4,7 @@ $(".popular-categories__slider").lightSlider({
     loop: true,
     responsive: [
       {
-        breakpoint: 1919,
+        breakpoint: 1917,
         settings: {
           item: 3,
         },
@@ -23,7 +23,7 @@ $(".popular-categories__slider").lightSlider({
     loop: true,
     responsive: [
     {
-        breakpoint: 1919,
+        breakpoint: 1917,
         settings: {
           item: 4
         }
@@ -42,7 +42,7 @@ $(".popular-categories__slider").lightSlider({
     loop: true,
     responsive: [
     {
-        breakpoint: 1919,
+        breakpoint: 1917,
         settings: {
           item: 4
         }
@@ -61,7 +61,7 @@ $(".popular-categories__slider").lightSlider({
     loop: true,
     responsive: [
       {
-        breakpoint: 1919,
+        breakpoint: 1817,
         settings: {
           item: 5
         }
