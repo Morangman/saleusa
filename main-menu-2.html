@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SaleUSA - Взуття та одяг з Америки" />
+    <title>SaleUSA - Взуття та одяг з Америки</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header hidden-header">
+      <h1 class="visually-hidden">SaleUSA - Взуття та одяг з Америки</h1>
+      <div class="container">
+        <div class="contacts-dropdown">
+          <address>
+            <ul class="contacts-dropdown-list">
+              <li class="contacts-dropdown-item">
+                <a href="tel:+380635603030">
+                  <svg viewBox="0 0 16 17" class="contacts-dropdown-phone">
+                    <use href="images/icons.svg#phone"></use>
+                  </svg>
+                  <span>+38 (063) 560-30-30</span>
+                </a>
+              </li>
+              <li class="contacts-dropdown-item">
+                <a href="mailto:cs@saleusa.com.ua">
+                  <svg viewBox="0 0 21 17" class="contacts-dropdown-mail">
+                    <use href="images/icons.svg#mail"></use>
+                  </svg>
+                  <span>cs@saleusa.com.ua</span>
+                </a>
+              </li>
+              <li class="contacts-dropdown-item">
+                <a href="#" class="contacts-dropdown-viber-link">
+                  <svg viewBox="0 0 24 24" class="contacts-dropdown-viber">
+                    <use href="images/icons.svg#viber"></use>
+                  </svg>
+                  <span>+38 (063) 560-30-30</span>
+                </a>
+              </li>
+              <li class="contacts-dropdown-item">
+                <a href="#" class="contacts-dropdown-telegram-link">
+                  <svg viewBox="0 0 20 16" class="contacts-dropdown-telegram">
+                    <use href="images/icons.svg#telegram"></use>
+                  </svg>
+                  <span>+38 (063) 560-30-30</span>
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="header-inner-container">
+          <ul class="header-left-menu">
+            <li class="header-burgermenu-item">
+              <a href="#" class="header-icon-link">
+                <svg viewBox="0 0 16 17" class="header-svg svg-burgermenu">
+                  <use href="images/icons.svg#burgermenu"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-phone-item">
+              <a href="#" id="toggle_contacts" class="header-icon-link">
+                <svg viewBox="0 0 16 17" class="header-svg svg-phone">
+                  <use href="images/icons.svg#phone"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <div class="header-logo">
+            <a href="" class="header-logo-link"
+              ><span class="hidden">SaleUSA</span>
+              <img
+                src="./images/logo.svg"
+                class="main-logo-svg"
+                width="113"
+                alt="SaleUSA Logo"
+              />
+            </a>
+          </div>
+          <form class="header-search-container">
+            <input
+              type="text"
+              class="header-search-input"
+              placeholder="Пошук"
+            />
+            <button type="submit" class="header-search-button">Знайти</button>
+            <button type="button" class="header-search-clear-button">
+              <svg viewBox="0 0 12 12" class="input-svg-cross">
+                <use href="images/icons.svg#inputcross"></use>
+              </svg>
+            </button>
+            <svg viewBox="0 0 12 12" class="input-svg-search">
+              <use href="images/icons.svg#inputsearch"></use>
+            </svg>
+          </form>
+          <ul class="header-right-menu">
+            <li class="header-heart-item">
+              <a href="#" class="header-icon-link">
+                <svg viewBox="0 0 27 25" class="header-svg svg-heart">
+                  <use href="images/icons.svg#heart"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-phone-item-right">
+              <a href="#" class="header-icon-link">
+                <svg viewBox="0 0 16 17" class="header-svg svg-phone">
+                  <use href="images/icons.svg#phone"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-search-item">
+              <a href="#" class="header-icon-link">
+                <svg viewBox="0 0 16 16" class="header-svg svg-search">
+                  <use href="images/icons.svg#search"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="header-icon-link">
+                <svg viewBox="0 0 16 16" class="header-svg svg-account">
+                  <use href="images/icons.svg#account"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-basket-item">
+              <a href="#" class="header-icon-link">
+                <svg viewBox="0 0 30 25" class="header-svg svg-basket">
+                  <use href="images/icons.svg#basket"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="child-menu "> 
+        <div class="container ">
+          <h3 class="child-menu-title relative-object">
+            <div class="back-from-child-menu">
+              <a href="#">
+                <svg viewBox="0 0 34 12" class="child-menu-arrow">
+                  <use href="images/icons.svg#arrowback"></use>
+                </svg>
+              </a>
+            </div>
+            Одяг
+          </h3>
+          <div class="child-menu-goods-container">
+            <h3 class="child-menu-goods-title">Верхній одяг</h3>
+            <ul class="child-menu-goods-list">
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст текст текст теееекст Текст текст текст теееекст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container top-line">
+          <div class="child-menu-goods-container">
+            <h3 class="child-menu-goods-title">Плаття</h3>
+            <ul class="child-menu-goods-list">
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст текст текст теееекст Текст текст текст теееекст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container top-line">
+          <div class="child-menu-goods-container">
+            <h3 class="child-menu-goods-title">Светри та худі</h3>
+            <ul class="child-menu-goods-list">
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст текст текст теееекст Текст текст текст теееекст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container top-line">
+          <div class="child-menu-goods-container">
+            <h3 class="child-menu-goods-title">Футболки</h3>
+            <ul class="child-menu-goods-list">
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст текст текст теееекст Текст текст текст теееекст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+              <li class="child-menu-goods-item">
+                <a href="">
+                  <div class="child-menu-goods-img-container"></div>
+                  <h4 class="child-menu-item-title">Текст</h4>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/lightslider.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

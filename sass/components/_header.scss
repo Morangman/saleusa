@@ -10,6 +10,12 @@
   @media (min-width: $tablet) {
     padding-top: 0;
   }
+  @media (min-width: $wdesktop) {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
 }
 
 .header-inner-container {
@@ -95,7 +101,7 @@
 }
 
 .header-logo {
-  flex-basis: 147px;
+  flex-basis: 113px;
   text-align: center;
   @media (min-width: $tablet) {
     flex-basis: 149px;
