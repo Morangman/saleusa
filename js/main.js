@@ -86,6 +86,12 @@ document
   document.querySelector(".header-search-input").value = "";
 });
 
+document.getElementById("toggle_contacts2")
+.addEventListener("click", (ev) =>{
+  ev.preventDefault();
+  document.querySelector(".contacts-dropdown").classList.toggle("shown");
+});
+
 document.getElementById("toggle_contacts")
 .addEventListener("click", (ev) =>{
   ev.preventDefault();

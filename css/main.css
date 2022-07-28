@@ -2653,10 +2653,12 @@ svg.svg-basket {
   transition: all 0.25s ease;
   opacity: 0;
   visibility: hidden;
+  border-radius: 5px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .contacts-dropdown {
-    display: none;
+    left: 950px;
+    top: 91px;
   }
 }
 

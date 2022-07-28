@@ -11,8 +11,10 @@
     transition: all .25s ease;
     opacity: 0;
     visibility: hidden;
-    @media (min-width: $tablet){
-        display: none;
+    border-radius: 5px;
+    @media (min-width: $wdesktop){
+        left: 950px;
+        top: 91px;
     }
 }
 
