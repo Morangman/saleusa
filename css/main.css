@@ -3446,13 +3446,11 @@ a.contacts-main-telegram-link {
   width: 10px;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
-  fill: #0A0A0A;
-  display: none;
+  fill: #FFFFFF;
 }
 
 .wdesktop-main-block-list > li > a.wdesktop-menu-active-link svg.svg-wdesktop-menu-triangle {
   fill: #FCC746;
-  display: block;
 }
 
 .wdesktop-secondary-block > a {

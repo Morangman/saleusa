@@ -58,13 +58,11 @@
 .wdesktop-main-block-list > li > a svg.svg-wdesktop-menu-triangle {
     width: 10px;
     transform: rotate(-90deg);
-    fill: $mainColor;
-    display: none;
+    fill: $backgoundColor;
 }
 
 .wdesktop-main-block-list > li > a.wdesktop-menu-active-link svg.svg-wdesktop-menu-triangle {
     fill: $buttonColor;
-    display: block;
 }
 
 .wdesktop-secondary-block > a {
