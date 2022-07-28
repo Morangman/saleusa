@@ -23,6 +23,9 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  @media (min-width: $wdesktop) {
+    height: 101px;
+  }
 }
 
 .header-left-menu,

@@ -170,6 +170,7 @@ const subMenuItemOnClick = (ev) => {
       mainSubMenuElem.classList.toggle("hidden", true);
       childMenuElem.classList.toggle("hidden", false);
       childMenuElem.classList.toggle("main-menu-initial-placed", false);
+      //document.querySelector("header").classList.add("hidden-header");
     }, 300
   );
 
@@ -192,6 +193,36 @@ backLinkElem.addEventListener("click", (ev) => {
       childMenuElem.classList.toggle("hidden", true);
       mainSubMenuElem.classList.toggle("hidden", false);
       mainSubMenuElem.classList.toggle("main-menu-initial-placed", false);
+      //document.querySelector("header").classList.remove("hidden-header");
     }, 300
   );
+})
+
+const heroListItems = document.querySelectorAll(".hero-top-list li a")
+heroListItems.forEach((el,idx) => {
+  if(idx > 2) { return ; }
+  el.addEventListener("click", (ev) => {
+    ev.preventDefault();
+    const wdesktopMenuSection = document.querySelector(".wdesktop-menu");
+    wdesktopMenuSection.classList.toggle("visually-hidden");
+    wdesktopMenuSection.classList.toggle("hidden");
+    setTimeout(()=> {
+      wdesktopMenuSection.classList.toggle("visually-hidden");
+    }, 100)
+  })
+})
+
+/////////////////////////////////////
+
+const wdesktopMenuLinks = document.querySelectorAll(".wdesktop-main-block-list a");
+wdesktopMenuLinks.forEach(el =>{
+  el.addEventListener("click", (ev) => {
+    ev.preventDefault();
+    let elemLink = ev.target;
+    if (elemLink.nodeName !== "A"){
+      elemLink = elemLink.parentNode;
+    }
+    wdesktopMenuLinks.forEach(elem => elem.classList.toggle("wdesktop-menu-active-link", false))
+    elemLink.classList.toggle("wdesktop-menu-active-link",true);
+  })
 })
